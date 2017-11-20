@@ -37,7 +37,7 @@ Vagrant.configure("2") do |config|
   # the path on the host to the actual folder. The second argument is
   # the path on the guest to mount the folder. And the optional third
   # argument is a set of non-required options.
-   config.vm.synced_folder "/Users/williamcook/hellopuppet/puppetcraft/", "/home/vagrant/hellopuppet/puppetcraft/"
+   config.vm.synced_folder "/Users/williamcook/Documents/puppet/puppetcraft/", "/home/vagrant/puppetcraft/"
 
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
@@ -68,7 +68,6 @@ Vagrant.configure("2") do |config|
      apt-get update
      wget -P /tmp/downloads https://apt.puppetlabs.com/puppetlabs-release-trusty.deb
      sudo dpkg -i /tmp/downloads/puppetlabs-release-trusty.deb
-     cd /home/vagrant/hellopuppet/puppetcraft/
-     sudo  puppet apply minecraftserver.pp --modulepath /home/vagrant/hellopuppet/puppetcraft/modules
+     sudo puppet apply /home/vagrant/puppetcraft/deployment/puppet/minecraftserver.pp --modulepath /home/vagrant/puppetcraft/deployment/puppet/modules
    SHELL
 end
