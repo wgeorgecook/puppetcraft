@@ -1,1 +1,1 @@
-There will be puppet manifests for minecraft server deployment here
+# Puppetcraft - A Puppet Deployment for Vanilla Minecraft Servers
