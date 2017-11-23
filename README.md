@@ -1,1 +1,3 @@
-# Puppetcraft - A Puppet Deployment for Vanilla Minecraft Servers
+
+# - PuppetCraft - 
+A Puppet Deployment for Vanilla Minecraft Servers
