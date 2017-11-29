@@ -1,1 +1,0 @@
-{"virtualbox":{"/home/vagrant/puppetcraft/":{"guestpath":"/home/vagrant/puppetcraft","hostpath":"/Users/williamcook/Documents/puppet/puppetcraft","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/williamcook/Documents/puppet/puppetcraft/deployment","disabled":false,"__vagrantfile":true}}}
