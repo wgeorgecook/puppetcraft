@@ -1,10 +1,12 @@
 class config-minecraft-server {
-    file { '/home/vagrant/minecraft/eula.txt':
+    file { '/home/vagrant/eula.txt':
+        owner => "vagrant",
+        group => "vagrant",
         ensure => 'present',
         content => 'eula=true',
     }
 
-    file { '/home/vagrant/minecraft/server.properties':
+    file { '/home/vagrant/server.properties':
         ensure => 'present',
         source => '/home/vagrant/puppetcraft/deployment/misc/server.properties'
     }
