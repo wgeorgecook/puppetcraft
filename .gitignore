@@ -1,1 +1,6 @@
 .vagrant/
+deployment/.vagrant/machines/default/virtualbox/action_provision
+deployment/.vagrant/machines/default/virtualbox/action_set_name
+deployment/.vagrant/machines/default/virtualbox/id
+deployment/.vagrant/machines/default/virtualbox/index_uuid
+deployment/.vagrant/machines/default/virtualbox/private_key
