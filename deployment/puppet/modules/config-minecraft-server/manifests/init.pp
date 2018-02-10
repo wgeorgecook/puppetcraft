@@ -1,13 +1,13 @@
 class config-minecraft-server {
-    file { '~/eula.txt':
-        owner => "minecraft",
-        group => "minecraft",
+    file { '/home/minecraft-user/minecraft/eula.txt':
+        owner => "minecraft-user",
+        group => "minecraft-user",
         ensure => 'present',
         content => 'eula=true',
     }
 
-    file { '~/server.properties':
+    file { '/home/minecraft-user/minecraft/server.properties':
         ensure => 'present',
-        source => '~/puppetcraft/deployment/misc/server.properties'
+        source => '/home/minecraft-user/puppetcraft/deployment/misc/server.properties'
     }
 }

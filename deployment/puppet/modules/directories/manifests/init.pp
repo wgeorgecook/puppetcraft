@@ -1,5 +1,5 @@
 class directories {
-  file { '~/minecraft':
+  file { '/home/minecraft-user/minecraft':
     ensure => 'directory',
   }
 }
