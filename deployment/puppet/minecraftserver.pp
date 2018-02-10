@@ -1,7 +1,7 @@
 include directories
 include get-minecraft
 include config-minecraft-server
-include start-server
+
 
 package { 'openjdk-8-jre':
   ensure => 'installed',
